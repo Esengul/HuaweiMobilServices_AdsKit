@@ -5,16 +5,6 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/text_interstitial"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="16dp"
-        android:textAlignment="center"
-        android:text="@string/interstitial_title_text"
-        android:textSize="20sp" />
-
-    <TextView
         android:id="@+id/ad_display_form"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -50,7 +40,7 @@
     </RadioGroup>
 
     <Button
-        android:id="@+id/btn_loadInterstitial"
+        android:id="@+id/loadInterstitialAdButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/ad_display_form"

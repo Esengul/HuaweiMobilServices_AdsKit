@@ -2,11 +2,9 @@
     <string name="app_name">HuaweiMobilServices_AdsKit</string>
     <string name="load_ads">LOAD ADS</string>
     <string name="load_interstitial_ads">LOAD INTERSTITIAL ADS</string>
-    <string name="interstitial_title_text">This is interstitial ad sample.</string>
     <string name="image_ad_id">teste9ih9j0rc3</string>
     <string name="video_ad_id">testb4znbuh3n2</string>
     <string name="display_form">Display form :</string>
     <string name="interstitial_display_picture">Image</string>
     <string name="interstitial_display_video">Video</string>
-
 </resources>

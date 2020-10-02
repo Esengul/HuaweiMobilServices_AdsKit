@@ -14,7 +14,7 @@ import com.huawei.hms.ads.AdParam;
 import com.huawei.hms.ads.HwAds;
 import com.huawei.hms.ads.InterstitialAd;
 
-public class Interstitial_Activity extends AppCompatActivity {
+public class InterstitialAdsActivity extends AppCompatActivity {
 
     private static final String TAG = MainActivity.class.getSimpleName();
     private RadioGroup displayRadioGroup;
@@ -30,7 +30,7 @@ public class Interstitial_Activity extends AppCompatActivity {
         HwAds.init(this);
 
         displayRadioGroup = findViewById(R.id.display_radio_group);
-        loadAdButton = findViewById(R.id.btn_loadInterstitial);
+        loadAdButton = findViewById(R.id.loadInterstitialAdButton);
         loadAdButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

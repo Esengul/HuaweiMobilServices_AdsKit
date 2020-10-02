@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         btnInterstitialAds.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, Interstitial_Activity.class);
+                Intent intent = new Intent(MainActivity.this, InterstitialAdsActivity.class);
                 startActivity(intent);
             }
         });
