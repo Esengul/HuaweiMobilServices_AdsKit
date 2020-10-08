@@ -4,11 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class SplashAdsActivity extends AppCompatActivity {
+public class RewardedAdsActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.splash_ads_activity);
+        setContentView(R.layout.rewarded_ads_activity);
     }
 }

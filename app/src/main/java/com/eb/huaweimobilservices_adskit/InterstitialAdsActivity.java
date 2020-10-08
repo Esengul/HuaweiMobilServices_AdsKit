@@ -24,7 +24,7 @@ public class InterstitialAdsActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.interstitial_ads);
+        setContentView(R.layout.interstitial_ads_activity);
 
         // Initialize the HUAWEI Ads SDK.
         HwAds.init(this);
